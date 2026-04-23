@@ -148,12 +148,33 @@ Created new employee called "Yoda Vader" and added the account to the Domain Adm
 <h2>Step 6</h2>
 
 <p>
-<img width="1231" height="608" alt="image" src="https://github.com/user-attachments/assets/dcd1dcf4-328a-465b-bd23-0247758203e4" />
+<img width="1210" height="686" alt="image" src="https://github.com/user-attachments/assets/2e82a059-23e1-4366-afda-00f951d663e6" />
 </p>
 <p>
-Created new employee called "Yoda Vader" and added the account to the Domain Admins security group.
+Logged in to Client-1 and joined it to the domain(mydomain.com)
 </p>
 <br />
+
+<p>
+<img width="756" height="533" alt="image" src="https://github.com/user-attachments/assets/16d5b95b-e61d-41e9-8476-5cd72f22d9f1" />
+</p>
+<p>
+Logged in to the Domain Controller to verify Client-1 shows up in ADUC. Created a new OU named “_CLIENTS” and added Client-1 to the OU.
+</p>
+<br />
+
+<h2>Step 7</h2>
+
+<p>
+
+</p>
+<p>
+Logged in to the Domain Controller to verify Client-1 shows up in ADUC. Created a new OU named “_CLIENTS” and added Client-1 to the OU.
+</p>
+<br />
+
+
+
 
 
 
