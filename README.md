@@ -180,7 +180,7 @@ Enabled non-administrative users to log on to Client-1.
 
 </p>
 <p>
-Logged in to DC-1 as yoda_admin and created 100 random users using a Powershell [script](https://github.com/alawalke2606/configure-ad/blob/main/Create_users)
+Logged in to DC-1 as yoda_admin and created 100 random users using a Powershell [script](https://github.com/alawalke2606/configure-ad/blob/main/Create_users).
 </p>
 <br />
 
