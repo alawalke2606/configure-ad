@@ -177,10 +177,18 @@ Enabled non-administrative users to log on to Client-1.
 
 <p>
 <img width="1719" height="902" alt="image" src="https://github.com/user-attachments/assets/2142309e-86b1-42da-8b7e-04e3d074580e" />
+</p>
+<p>
+Logged in to DC-1 as yoda_admin and created 100 random users using a Powershell script "Create_users".
+</p>
+<br />
+
+<p>
+<img width="985" height="519" alt="image" src="https://github.com/user-attachments/assets/b29cca3f-5695-489b-90aa-3a33c1de04d8" />
 
 </p>
 <p>
-Logged in to DC-1 as yoda_admin and created 100 random users using a Powershell [script]().
+Logged in to Client-1 as one of the random users "cox.fij" to verify that those accounts could log in to Client-1.
 </p>
 <br />
 
