@@ -44,9 +44,53 @@ Changed DC-1's private IP address to staic on its NIC to prevent it from changin
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1059" height="789" alt="image" src="https://github.com/user-attachments/assets/cd8ee114-845a-48ae-a150-9902eebdac88" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Disabled firewalls within DC-1 to test connectivity.
+</p>
+<br />
+
+<h2>Step 2</h2>
+
+<p>
+<img width="1335" height="841" alt="image" src="https://github.com/user-attachments/assets/0d6c166f-b003-4b16-99d1-43386931d7b9" />
+</p>
+<p>
+Created Client-1 VM within Azure. Added it to the Active-Directory virtual network/subnet.
+</p>
+<br />
+
+<p>
+<img width="752" height="723" alt="image" src="https://github.com/user-attachments/assets/468e094b-b418-4ef1-b927-456ec669a798" />
+</p>
+<p>
+Set Client-1’s DNS settings to DC-1’s Private IP address
+</p>
+<br />
+
+<p>
+<img width="752" height="723" alt="image" src="https://github.com/user-attachments/assets/468e094b-b418-4ef1-b927-456ec669a798" />
+</p>
+<p>
+Set Client-1’s DNS settings to DC-1’s Private IP address
+</p>
+<br />
+
+<h2>Step 3</h2>
+
+<p>
+<img width="857" height="730" alt="image" src="https://github.com/user-attachments/assets/2b9fcaf9-88d8-44da-8bfd-5f38b1041266" />
+</p>
+<p>
+Pinged DC-1's private IP address from Client-1 to ensure connectivity.
+</p>
+<br />
+
+<p>
+<img width="857" height="730" alt="image" src="https://github.com/user-attachments/assets/2b9fcaf9-88d8-44da-8bfd-5f38b1041266" />
+</p>
+<p>
+Pinged DC-1's private IP address from Client-1 to ensure connectivity.
 </p>
 <br />
