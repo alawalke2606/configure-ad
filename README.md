@@ -25,7 +25,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Step 3-Test connectivity between the two machines
 - Step 4-Install Active Directory
 - Step 5-Create a Domain Admin user within the domain
-- Step 6-Join Client-1 to your domain (mydomain.com)
+- Step 6-Join Client-1 to domain (mydomain.com)
 - Step 7-Setup Remote Desktop for non-administrative users on Client-1
 - Step 8-Create a bunch of additional users and attempt to log into client-1 with one of the users
 
@@ -104,11 +104,57 @@ Ran ipconfig /all on Client-1 to show that it is using DC-1 as the DNS server.
 <h2>Step 4</h2>
 
 <p>
-
+<img width="787" height="565" alt="image" src="https://github.com/user-attachments/assets/8b3b6a03-7c51-42ea-8619-8ffd40abbcfc" />
 </p>
 <p>
-Ran ipconfig /all on Client-1 to show that it is using DC-1 as the DNS server.
+Installed AD Domain Services on DC-1
 </p>
 <br />
+
+<p>
+<img width="776" height="571" alt="image" src="https://github.com/user-attachments/assets/af6a902f-8d23-4a5f-a27f-5d5ccb4d9311" />
+</p>
+<p>
+Promoted DC-1 to a domain controller and created a new forest "mydomain.com."
+</p>
+<br />
+
+<p>
+<img width="1203" height="938" alt="image" src="https://github.com/user-attachments/assets/9799c5d4-1be5-44fd-b701-fc5028c82850" />
+</p>
+<p>
+Logged in to DC-1 as a domain user.
+</p>
+<br />
+
+<h2>Step 5</h2>
+
+<p>
+<img width="770" height="540" alt="image" src="https://github.com/user-attachments/assets/3815f015-a597-4520-bb0e-53663199587a" />
+</p>
+<p>
+In Active Directory Users and Computers(AUDC), created two new Organizational Units(OU), _EMPLOYEES and _ADMINS.
+</p>
+<br />
+
+<p>
+<img width="1231" height="608" alt="image" src="https://github.com/user-attachments/assets/dcd1dcf4-328a-465b-bd23-0247758203e4" />
+</p>
+<p>
+Created new employee called "Yoda Vader" and added the account to the Domain Admins security group.
+</p>
+<br />
+
+<h2>Step 6</h2>
+
+<p>
+<img width="1231" height="608" alt="image" src="https://github.com/user-attachments/assets/dcd1dcf4-328a-465b-bd23-0247758203e4" />
+</p>
+<p>
+Created new employee called "Yoda Vader" and added the account to the Domain Admins security group.
+</p>
+<br />
+
+
 
 
