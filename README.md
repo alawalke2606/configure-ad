@@ -23,6 +23,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Step 1-Create domain controller VM 
 - Step 2-Create Client computer VM
 - Step 3-Test connectivity between the two machines
+- Step 4-
 
 <h2>Step 1</h2>
 
@@ -88,9 +89,9 @@ Pinged DC-1's private IP address from Client-1 to ensure connectivity.
 <br />
 
 <p>
-<img width="857" height="730" alt="image" src="https://github.com/user-attachments/assets/2b9fcaf9-88d8-44da-8bfd-5f38b1041266" />
+<img width="863" height="733" alt="image" src="https://github.com/user-attachments/assets/7c84b7e3-9bcb-4da7-933a-d93ce5791f81" />
 </p>
 <p>
-Pinged DC-1's private IP address from Client-1 to ensure connectivity.
+Ran ipconfig /all on Client-1 to show that it is using DC-1 as the DNS server.
 </p>
 <br />
