@@ -166,13 +166,23 @@ Logged in to the Domain Controller to verify Client-1 shows up in ADUC. Created 
 <h2>Step 7</h2>
 
 <p>
-
+<img width="1204" height="936" alt="image" src="https://github.com/user-attachments/assets/b0cefdd6-f946-4927-ac02-ff2870dbfd60" />
 </p>
 <p>
-Logged in to the Domain Controller to verify Client-1 shows up in ADUC. Created a new OU named “_CLIENTS” and added Client-1 to the OU.
+Enabled non-administrative users to log on to Client-1.
 </p>
 <br />
 
+<h2>Step 8</h2>
+
+<p>
+<img width="1719" height="902" alt="image" src="https://github.com/user-attachments/assets/2142309e-86b1-42da-8b7e-04e3d074580e" />
+
+</p>
+<p>
+Logged in to DC-1 as yoda_admin and created 100 random users using a Powershell script.
+</p>
+<br />
 
 
 
