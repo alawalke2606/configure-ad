@@ -36,7 +36,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img width="1886" height="849" alt="image" src="https://github.com/user-attachments/assets/2d9f98c2-4c2e-41fd-9d1b-9ead1a308b03" />
 </p>
 <p>
-Created domain controller VM within Azure. Added it to the Active-Directory virtual network/subnet. 
+Created domain controller VM within Azure. Added it to the Active-Directory virtual network/subnet. For detailed tutorial on VM creation see https://github.com/alawalke2606/create-vms/blob/main/README.md
 </p>
 <br />
 
@@ -45,7 +45,7 @@ Created domain controller VM within Azure. Added it to the Active-Directory virt
 
 </p>
 <p>
-Changed DC-1's private IP address to staic on its NIC to prevent it from changing if DC-1 is shut off.
+Changed DC-1's private IP address to staic on its NIC to prevent it from changing if DC-1 is shut off. 
 </p>
 <br />
 
@@ -63,7 +63,7 @@ Disabled firewalls within DC-1 to test connectivity.
 <img width="1335" height="841" alt="image" src="https://github.com/user-attachments/assets/0d6c166f-b003-4b16-99d1-43386931d7b9" />
 </p>
 <p>
-Created Client-1 VM within Azure. Added it to the Active-Directory virtual network/subnet.
+Created Client-1 VM within Azure. Added it to the Active-Directory virtual network/subnet. For detailed tutorial on VM creation see https://github.com/alawalke2606/create-vms/blob/main/README.md
 </p>
 <br />
 
